@@ -1,10 +1,11 @@
-let obj = {
-    a:25,
-    greet:function greet(){
-        return "hello i am object function"
-    },
+let fruits = ["apple","mango","grapes"]
+console.table(fruits)
 
+let nums ={
+    1:1,
+    2:2,
+    3:3
 }
+console.table(nums)
 
-let retVal = obj.greet()
-console.log(retVal)
+
